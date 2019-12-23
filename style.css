@@ -1,0 +1,76 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #fffff9;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 1.4rem;
+  margin-bottom: 1.3rem;
+  padding-right: 0;
+  vertical-align: baseline;
+  line-height: 2rem;
+}
+
+p.footnote {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+
+div.sidenav p {
+  padding-left: 5%;    
+}  
+
+@media screen and (min-width: 800px) {
+  div.main {
+    margin-left: 2%;
+    padding-left: 15%;
+  }
+
+  div.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ddddd9;
+    overflow-x: scroll;
+    padding-top: 60px;
+  }
+
+  div.main p, h1, h2, h3 {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div.sidenav {
+    left: 0;
+    overflow-x: hidden;
+    background-color: #ddddd9;
+  }
+
+  p, h1, h2, h3 {
+    width: 90%;
+  }
+}
+
+#pappap
+{
+  width: 90%;
+}
